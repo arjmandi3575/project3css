@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+  width: auto;
+  height: auto;
+  background: #bdc3c7; 
+  background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50); 
+  background: linear-gradient(to right, #bdc3c7, #2c3e50); 
+  display: flex;
+  justify-content: center;
+}
+.all{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 450px;
+    width: 400px;
+}
+.all .color{
+    height: 30%;
+    width: 100%;
+  background: -webkit-linear-gradient(to right, #be93c5, #7bc6cc);
+  background: linear-gradient(to right, #be93c5, #7bc6cc); 
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.all .text{
+    background-color: white;
+    height: 70%;
+    width: 100%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;  
+}
+.all .text .image img{
+ border-radius: 5rem;
+ margin-top: -3rem;
+ margin-left: 9rem;
+}
+.text .name{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+} 
+.text header{
+    font-weight: bold;
+    color: black;
+    margin: 1rem;
+}
+.text .name .number{
+    margin: 1rem;
+    color: #808088;
+}
+.all  .text .first-line{
+    color: #808088;
+    text-align: center;
+    margin: 1rem;
+    border-bottom:#808088 inset 0.1rem;
+padding: 2rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.numbers{
+    color: black;
+    margin: 1.5rem;
+}
+.numbers p{
+    color: #808088 ;
+    text-align: center;
+    padding: 0.5rem 0;
+}
