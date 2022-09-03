@@ -11,68 +11,91 @@ body {
   display: flex;
   justify-content: center;
 }
-.all{
+.all {
     margin-top: 2rem;
     margin-bottom: 2rem;
     height: 391px;
     width: 400px;
 }
-.all .color{
+.all .color {
     height: 30%;
     width: 100%;
-  background: -webkit-linear-gradient(to right, #be93c5, #7bc6cc);
-  background: linear-gradient(to right, #be93c5, #7bc6cc); 
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+    background: -webkit-linear-gradient(to right, #be93c5, #7bc6cc);
+    background: linear-gradient(to right, #be93c5, #7bc6cc); 
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
-.all .text{
+.all .text {
     background-color: white;
     height: 70%;
     width: 100%;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;  
 }
-.all .text .image img{
+.all .text .image img {
     border-radius: 5rem;
     margin-top: -3rem;
     margin-left: 9rem;
 }
-.text .name{
+.text .name {
     display: flex;
     justify-content: center;
     flex-direction: row;
 } 
-.text header{
+.text header {
     font-weight: bold;
     color: black;
     margin: 1rem;
 }
-.text .name .number{
+.text .name .number {
     margin: 1rem;
     color: #808088;
     text-align: center;
 }
-.all  .text .first-line{
+.all  .text .first-line {
     color: #808088;
     text-align: center;
     margin: 1.5rem 0;
     border-bottom:#cbcbd4 inset 0.1rem;
-   padding-bottom: 1rem;
+    padding-bottom: 1rem;
 }
-footer{
+footer {
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
-.numbers{
+.numbers {
     color: black;
     margin: 1.5rem;
     font-weight: bold;
     text-align: center;
 }
-.numbers p{
+.numbers p {
     font-weight: normal;
     color: #808088 ;
     text-align: center;
     padding: 0.5rem 0;
+}
+@media(max-width: 400px) {
+    .all {
+        width: 90%;
+    }
+    .all .text .image img {
+       margin-left: 8rem;
+    }
+}
+@media(max-width: 350px) {
+    .all .text .image img {
+       margin-left: 7rem;
+    }
+}
+@media(max-width: 300px) {
+    .all .text .image img {
+       margin-left: 6rem;
+    }
+}
+@media(max-width: 250px) {
+    .all .text .image img {
+       margin-left: 4rem;
+    }
 }
