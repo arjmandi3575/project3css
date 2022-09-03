@@ -14,7 +14,7 @@ body {
 .all{
     margin-top: 2rem;
     margin-bottom: 2rem;
-    height: 450px;
+    height: 391px;
     width: 400px;
 }
 .all .color{
@@ -33,9 +33,9 @@ body {
     border-bottom-right-radius: 1rem;  
 }
 .all .text .image img{
- border-radius: 5rem;
- margin-top: -3rem;
- margin-left: 9rem;
+    border-radius: 5rem;
+    margin-top: -3rem;
+    margin-left: 9rem;
 }
 .text .name{
     display: flex;
@@ -50,13 +50,14 @@ body {
 .text .name .number{
     margin: 1rem;
     color: #808088;
+    text-align: center;
 }
 .all  .text .first-line{
     color: #808088;
     text-align: center;
-    margin: 1rem;
-    border-bottom:#808088 inset 0.1rem;
-padding: 2rem;
+    margin: 1.5rem 0;
+    border-bottom:#cbcbd4 inset 0.1rem;
+   padding-bottom: 1rem;
 }
 footer{
     display: flex;
@@ -66,8 +67,11 @@ footer{
 .numbers{
     color: black;
     margin: 1.5rem;
+    font-weight: bold;
+    text-align: center;
 }
 .numbers p{
+    font-weight: normal;
     color: #808088 ;
     text-align: center;
     padding: 0.5rem 0;
